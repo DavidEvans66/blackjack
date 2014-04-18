@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20140201</FitNesseVersion>
+  <rootPath>BlackjackApplication.StoryTests</rootPath>
+    <pageHistoryReference>
+    <name>BlackjackApplication.StoryTests.TestApplicationInfo</name>
+    <date>04/18/2014 17:25:35</date>
+    <pageHistoryLink>BlackjackApplication.StoryTests.TestApplicationInfo?pageHistory&amp;resultDate=20140418172535</pageHistoryLink>
+    <counts>
+      <right>1</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>97</runTimeInMillis>
+  </pageHistoryReference>
+    <pageHistoryReference>
+    <name>BlackjackApplication.StoryTests.TestSystemClock</name>
+    <date>04/18/2014 17:25:35</date>
+    <pageHistoryLink>BlackjackApplication.StoryTests.TestSystemClock?pageHistory&amp;resultDate=20140418172535</pageHistoryLink>
+    <counts>
+      <right>3</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <runTimeInMillis>91</runTimeInMillis>
+  </pageHistoryReference>
+    <finalCounts>
+    <right>2</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1992</totalRunTimeInMillis>
+
+</suiteResults>
+

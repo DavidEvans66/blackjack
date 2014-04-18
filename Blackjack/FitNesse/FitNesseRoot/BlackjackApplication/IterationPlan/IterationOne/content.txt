@@ -1,0 +1,19 @@
+!1 Iteration 1
+!2 Iteration Theme
+Add information about the theme for the iteration.
+
+!2 These are the stories for this iteration
+
+!see .SmartpayApplication.StoryTests.TestApplicationInfo
+Ensure that the application information provider is correct 
+
+!see .SmartpayApplication.StoryTests.TestSystemClock
+System clock control
+
+!see .SmartpayApplication.StoryTests.StoryOne
+Story one description
+
+!see .SmartpayApplication.StoryTests.StoryTwo
+Description of Story two
+
+

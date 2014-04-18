@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>CardTypes</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>11</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0">
+<tr><td>CardTypesFixture</td>
+</tr>
+</table>
+<br/><table border="1" cellspacing="0">
+<tr><td class="error">StartSmartpay<a title="create page" href="SmartpayApplication.StoryTests.StartSmartpay?edit&nonExistent=true">[?]</a><hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'startsmartpayleftsquarebracketquestionrightsquarebracket' with 0 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+</tr>
+</table>
+<br/><h2>Cards and Surcharges</h2>The list of card types and their valid PAN lengths are:<br/><br/><table border="1" cellspacing="0">
+<tr><td class="error" colspan="3">Supported Card Types<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'supportedcardtypes' with 0 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+</tr>
+<tr><td class="error">Name<hr /><pre><div class="fit_stacktrace">System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> fitlibrary.exception.InvalidMethodException: Missing method 'validcvvlength' with 0 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.ExecuteEmbeddedMethod(Parse theCells, Int32 theExcludedCellCount)
+   at fitlibrary.FlowFixtureBase.Name(Parse theCells)
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.InvokeMember(String name, BindingFlags bindingFlags, Binder binder, Object target, Object[] providedArgs, ParameterModifier[] modifiers, CultureInfo culture, String[] namedParams)
+   at fitlibrary.Method.Invoke(Object[] theParameters)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>Valid Pan Lengths</td>
+<td>Valid Cvv Length</td>
+</tr>
+<tr><td class="error">Visa<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'visa3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>13, 16</td>
+<td>3</td>
+</tr>
+<tr><td class="error">Visa Debit<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'visadebit3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>16</td>
+<td>3</td>
+</tr>
+<tr><td class="error">Visa Electron<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'visaelectron3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>16</td>
+<td>3</td>
+</tr>
+<tr><td class="error">MasterCard<a title="create page" href="SmartpayApplication.StoryTests.MasterCard?edit&nonExistent=true">[?]</a><hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'mastercardleftsquarebracketquestionrightsquarebracket3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>16</td>
+<td>3</td>
+</tr>
+<tr><td class="error">Maestro<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'maestro3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>12, 19</td>
+<td>3</td>
+</tr>
+<tr><td class="error">American Express<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'americanexpress4' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>15</td>
+<td>4</td>
+</tr>
+<tr><td class="error">JCB<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'jcb3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>16</td>
+<td>3</td>
+</tr>
+<tr><td class="error">Diners Club<hr /><pre><div class="fit_stacktrace">fitlibrary.exception.InvalidMethodException: Missing method 'dinersclub3' with 1 argument(s).
+   at fitlibrary.Method.FindFirst(Object theTarget, IdentifierName theIdentifierName, Int32 theParameterCount)
+   at fitlibrary.FlowFixtureBase.FindRowMethod(Parse theRow)
+   at fitlibrary.FlowFixtureBase.ProcessFlowRow(Parse theCurrentRow)</div></pre></td>
+<td>14</td>
+<td>3</td>
+</tr>
+</table>
+<br/>By default, all card types have a zero surcharge for all clients.<br/>We can set the surcharges for certain cards for test purposes, and then query the<br/><br/>list of cards and surcharges.<br/>For Example:<br/>When we assign the following surcharges:<br/><br/><table border="1" cellspacing="0">
+<tr><td colspan="2">Comment</td>
+</tr>
+<tr><td colspan="2">Setup Card Type Surcharges</td>
+</tr>
+<tr><td>Name</td>
+<td>Surcharge</td>
+</tr>
+<tr><td>Visa</td>
+<td>0.50</td>
+</tr>
+<tr><td>Mastercard</td>
+<td>1.00</td>
+</tr>
+<tr><td>Diners Club</td>
+<td>0.90</td>
+</tr>
+</table>
+<br/>Then Expect the Cards list to be as follows:<br/><br/><table border="1" cellspacing="0">
+<tr><td colspan="2">Comment</td>
+</tr>
+<tr><td colspan="2">Card Types</td>
+</tr>
+<tr><td>Name</td>
+<td>Surcharge</td>
+</tr>
+<tr><td>Visa</td>
+<td>0.50</td>
+</tr>
+<tr><td>Visa Debit</td>
+<td>0.00</td>
+</tr>
+<tr><td>Visa Electron</td>
+<td>0.00</td>
+</tr>
+<tr><td>MasterCard</td>
+<td>1.00</td>
+</tr>
+<tr><td>Maestro</td>
+<td>0.00</td>
+</tr>
+<tr><td>Visa Electron</td>
+<td>0.00</td>
+</tr>
+<tr><td>American Express</td>
+<td>0.00</td>
+</tr>
+<tr><td>JCB</td>
+<td>0.00</td>
+</tr>
+<tr><td>Diners Club</td>
+<td>0.90</td>
+</tr>
+</table>
+]]></content>
+    <relativePageName>CardTypes</relativePageName>
+    
+    
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+

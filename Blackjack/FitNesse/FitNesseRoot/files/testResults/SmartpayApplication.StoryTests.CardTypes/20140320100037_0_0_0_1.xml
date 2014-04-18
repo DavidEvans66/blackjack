@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20100303</FitNesseVersion>
+  <rootPath>CardTypes</rootPath>
+    <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>1</exceptions>
+    </counts>
+    <content><![CDATA[<table border="1" cellspacing="0">
+<tr><td class="error">SmartPay.FitFixtures.CardTypesFixture<hr /><pre><div class="fit_stacktrace">System.ApplicationException: Type 'SmartPay.FitFixtures.CardTypesFixture' could not be found in assemblies.
+Assemblies searched:    file:///C:/Users/David/Documents/Testify/Smartpay/build/Debug/Smartpay.FitFixtures/eg.dll
+    file:///C:/Users/David/Documents/Testify/Smartpay/build/Debug/Smartpay.FitFixtures/FitLibrary.dll
+    file:///C:/Users/David/Documents/Testify/Smartpay/build/Debug/Smartpay.FitFixtures/Smartpay.Core.dll
+    file:///C:/Users/David/Documents/Testify/Smartpay/build/Debug/Smartpay.FitFixtures/Smartpay.FitFixtures.dll
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/dbfit.DLL
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/eg.DLL
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/FitLibrary.DLL
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/ThoughtWorks.Selenium.Core.DLL
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/webfixture.DLL
+    file:///C:/Windows/Microsoft.NET/Framework64/v2.0.50727/mscorlib.dll
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/FitServer.exe
+    file:///C:/Users/David/Documents/Testify/Smartpay/FitNesse/dotnet2/fit.DLL
+    file:///C:/Windows/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll
+    file:///C:/Windows/assembly/GAC_MSIL/System.Configuration/2.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+    file:///C:/Windows/assembly/GAC_MSIL/System.Xml/2.0.0.0__b77a5c561934e089/System.Xml.dll
+    file:///C:/Windows/assembly/GAC_64/System.Web/2.0.0.0__b03f5f7f11d50a3a/System.Web.dll
+Load errors: Could not load file or assembly 'file:///C:\Users\David\Documents\Testify\Smartpay\FitNesse\fitnesse.jar' or one of its dependencies. The module was expected to contain an assembly manifest., Could not load file or assembly 'file:///C:\Users\David\Documents\Testify\Smartpay\FitNesse\fitlibrary.jar' or one of its dependencies. The module was expected to contain an assembly manifest.
+   at fit.Assemblies.FindType(TypeName theName)
+   at fit.Fixture.LoadClass(String theClassName)
+   at fit.StoryTest.DoTables()</div></pre></td>
+</tr>
+<tr><td>StartSmartpay</td>
+</tr>
+</table>]]></content>
+    <relativePageName>CardTypes</relativePageName>
+    
+    
+    
+  </result>
+  
+  
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  
+</testResults>
+
