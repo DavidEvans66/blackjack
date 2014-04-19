@@ -3,4 +3,4 @@
 !3 ''The fully integrated standalone acceptance testing framework and wiki.''
 
 |!c '''Table of Contents'''|
-|!c BlackjackApplication|A Ready to run suite of tests for Smartpay|
+|!c BlackjackApplication|A Ready to run suite of tests for Blackjack|
