@@ -1,0 +1,30 @@
+We will deal one card to the player and one to the dealer.
+From these we will determine whether the PlayerWinsOrLoses.
+
+Acceptance Criteria
+ * The player is dealt first, then dealer.
+ * The cards are dealt from the deck, which we will set up first (no randomness)
+ * Dealt cards are removed from the deck, undealt cards remain.
+
+For example:
+
+If the cards in the deck are A, 2, 3, 4
+Then player gets the Ace, Dealer gets the 2, and 3, 4 are still in the deck.
+
+Given a
+|New Game|
+and we
+|Setup Deck|A, 2, 3, 4|
+
+When we
+|Deal Cards|
+
+Then Expect
+|check|Player Card|A|
+|check|Dealer Card|2|
+|check|Deck|3, 4|
+
+
+
+
+

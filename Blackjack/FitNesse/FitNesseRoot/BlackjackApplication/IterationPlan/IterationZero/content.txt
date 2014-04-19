@@ -1,0 +1,10 @@
+!3 Iteration Theme : Infrastructure for testing only, no functionality.
+
+!3 These are the stories for this iteration
+
+!see .BlackjackApplication.GenericTests.TestApplicationInfo
+Ensure that the application information provider is correct 
+
+!see .BlackjackApplication.GenericTests.TestSystemClock
+System clock control
+

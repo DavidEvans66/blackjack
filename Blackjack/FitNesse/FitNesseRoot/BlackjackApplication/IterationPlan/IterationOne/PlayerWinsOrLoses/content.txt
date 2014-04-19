@@ -1,0 +1,13 @@
+The player wins if the value of their card is greater than or equal to the dealers. Otherwise they lose.
+
+Picture cards (J,Q,K) are worth 10. Ace (A) is worth 11
+
+!4 For Example:
+| Player Card | Dealer Card | Player Outcome? |
+| 7 | 9 | Lose |
+| 10 | 10 | Win |
+| A | 2 | Win |
+| J | A | Lose |
+| K | Q | Win |
+| 9 | J | Lose |
+| 10 | J | Win |

@@ -8,15 +8,5 @@
 
 !1 Blackjack Application
 
->StoryTests
->GenericTests
-
-
-
-----
-!**> Subwiki Contents
-!contents -R2 -g -p -f -h
-
-**!
-
+!contents -R5 -g -p -f -h
 
