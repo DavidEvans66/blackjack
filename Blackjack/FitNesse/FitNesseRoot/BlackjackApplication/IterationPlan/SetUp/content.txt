@@ -1,0 +1,2 @@
+!|Import|
+|${FIXTURE_PACKAGE}|

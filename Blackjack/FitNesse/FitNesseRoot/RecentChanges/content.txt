@@ -1,4 +1,4 @@
-|BlackjackApplication.IterationPlan.IterationOne.PlayerWinsOrLoses||10:58:56 Sat, Apr 19, 2014|
+|BlackjackApplication.IterationPlan.IterationOne.PlayerWinsOrLoses||12:06:54 Sat, Apr 19, 2014|
 |BlackjackApplication.IterationPlan.IterationOne.DealOneCardEach||10:56:33 Sat, Apr 19, 2014|
 |BlackjackApplication||10:42:52 Sat, Apr 19, 2014|
 |BlackjackApplication.IterationPlan.IterationOne||10:41:09 Sat, Apr 19, 2014|
