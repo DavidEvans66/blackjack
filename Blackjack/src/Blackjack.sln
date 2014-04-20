@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 # SharpDevelop 4.4
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buildHelpers", "buildHelpers", "{508943F1-71D1-43FB-9995-B55E59FBD5AB}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.Core", "Blackjack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.FitFixtures", "Blackjack.FitFixtures\Blackjack.FitFixtures.csproj", "{5513EA48-8453-4102-BD7E-EA7CD9FC34F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blackjack.CLI", "Blackjack.CLI\Blackjack.CLI.csproj", "{C3F23ABA-5D6A-4243-BDFA-6947084AB784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{5513EA48-8453-4102-BD7E-EA7CD9FC34F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5513EA48-8453-4102-BD7E-EA7CD9FC34F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5513EA48-8453-4102-BD7E-EA7CD9FC34F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F23ABA-5D6A-4243-BDFA-6947084AB784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F23ABA-5D6A-4243-BDFA-6947084AB784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F23ABA-5D6A-4243-BDFA-6947084AB784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F23ABA-5D6A-4243-BDFA-6947084AB784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
