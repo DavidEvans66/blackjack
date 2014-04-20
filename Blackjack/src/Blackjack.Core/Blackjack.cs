@@ -4,6 +4,31 @@ namespace Blackjack.Core
 {
 	public class BlackjackApplication
 	{
+		string[] shoe = new string[] {};
+   		public static void Main(string[] args)
+   		{
+       		Console.WriteLine("Number of command line parameters = {0}", args.Length);
+       		foreach(string s in args)
+       		{
+          		Console.WriteLine(s);
+       		}
+  		}
+  		public void SetupShoe(string[] Cards){
+			// TODO
+		}
+		public string[] Shoe(){
+			return shoe;
+		}
+		public bool DealCards(){
+			return false; // TODO return true when implemented
+		}
+		public string PlayerCard(){
+			return "nothing";
+		}
+		public string DealerCard(){
+			return "nothing";
+		}
+		
 		public string Result( int PlayerValue, int DealerValue) {
 			if ( PlayerValue >= DealerValue )
 				return "Win";
