@@ -12,9 +12,5 @@ namespace Blackjack.FitFixtures
 			game = new BlackjackApplication();
 			SetSystemUnderTest(game);
 		}
-//		public void SetupShoe(string[] Cards)
-//		{
-//			game.SetupShoe(Cards);
-//		}
 	}
 }

@@ -3,3 +3,8 @@ C:\Users\David\Documents\GitHub\blackjack\Blackjack\build\Debug\Blackjack.Core\B
 C:\Users\David\Documents\GitHub\blackjack\Blackjack\src\Blackjack.Core\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\David\Documents\GitHub\blackjack\Blackjack\src\Blackjack.Core\obj\Debug\Blackjack.Core.dll
 C:\Users\David\Documents\GitHub\blackjack\Blackjack\src\Blackjack.Core\obj\Debug\Blackjack.Core.pdb
+C:\Users\Dylan\Documents\GitHub\blackjack\Blackjack\build\Debug\Blackjack.Core\Blackjack.Core.dll
+C:\Users\Dylan\Documents\GitHub\blackjack\Blackjack\build\Debug\Blackjack.Core\Blackjack.Core.pdb
+C:\Users\Dylan\Documents\GitHub\blackjack\Blackjack\src\Blackjack.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dylan\Documents\GitHub\blackjack\Blackjack\src\Blackjack.Core\obj\Debug\Blackjack.Core.dll
+C:\Users\Dylan\Documents\GitHub\blackjack\Blackjack\src\Blackjack.Core\obj\Debug\Blackjack.Core.pdb
