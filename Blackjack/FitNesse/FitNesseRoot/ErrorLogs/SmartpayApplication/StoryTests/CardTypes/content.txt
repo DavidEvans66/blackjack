@@ -1,6 +1,0 @@
-!3 !-fit-!
-|'''Date: '''|!-4:20:07 PM (BST) on Friday, April 18, 2014-!|
-|'''Test Page: '''|.SmartpayApplication.StoryTests.CardTypes|
-|'''Command: '''|!-dotnet2\FitServer.exe C:\Users\David\Documents\Testify\Smartpay\FitNesse\..\build\Debug\Smartpay.FitFixtures\eg.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\..\build\Debug\Smartpay.FitFixtures\fit.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\..\build\Debug\Smartpay.FitFixtures\FitLibrary.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\..\build\Debug\Smartpay.FitFixtures\Smartpay.Core.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\..\build\Debug\Smartpay.FitFixtures\Smartpay.FitFixtures.dll;fitnesse.jar;fitlibrary.jar;C:\Users\David\Documents\Testify\Smartpay\FitNesse\dotnet2\dbfit.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\dotnet2\eg.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\dotnet2\fit.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\dotnet2\FitLibrary.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\dotnet2\ThoughtWorks.Selenium.Core.dll;C:\Users\David\Documents\Testify\Smartpay\FitNesse\dotnet2\webfixture.dll David-PC 8080 2-!|
-|'''Exit code: '''|!-12-!|
-|'''Time elapsed: '''|!-1.483 seconds-!|
