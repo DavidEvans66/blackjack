@@ -1,5 +1,0 @@
-C:\Users\David\Documents\Testify\Smartpay\build\Debug\Smartpay.Core\Smartpay.Core.dll
-C:\Users\David\Documents\Testify\Smartpay\build\Debug\Smartpay.Core\Smartpay.Core.pdb
-C:\Users\David\Documents\Testify\Smartpay\src\Smartpay.Core\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\David\Documents\Testify\Smartpay\src\Smartpay.Core\obj\Debug\Smartpay.Core.dll
-C:\Users\David\Documents\Testify\Smartpay\src\Smartpay.Core\obj\Debug\Smartpay.Core.pdb
