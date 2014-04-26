@@ -11,13 +11,5 @@ namespace Blackjack.FitFixtures
         	return game.Result(PlayerValue, DealerValue);
         }
     }
-	
-	public class CardValuesFixture: ColumnFixture{
-        public string Card;
-        public int Value() {
-        	BlackjackApplication game = new BlackjackApplication();
-        	return game.GetCardValue(Card);
-        }
-    }
 }
 

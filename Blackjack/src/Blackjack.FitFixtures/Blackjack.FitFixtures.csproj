@@ -65,6 +65,7 @@
     <Compile Include="..\VersionInfo.cs">
       <Link>Properties\VersionInfo.cs</Link>
     </Compile>
+    <Compile Include="CardValuesFixture.cs" />
     <Compile Include="NewGameFixture.cs" />
     <Compile Include="PlayerOutcomeFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

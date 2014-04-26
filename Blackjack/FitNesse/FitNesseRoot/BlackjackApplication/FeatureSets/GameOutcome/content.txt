@@ -1,0 +1,12 @@
+The Game outcome is always expressed from the point of view of the player.
+The player wins if the value of their hand is greater than or equal to the dealers. Otherwise they lose.
+
+!4 For Example:
+!| Player Outcome                         |
+|Player Value|Dealer Value|Player Outcome?|
+|7           |9           |Lose           |
+|10          |10          |Win            |
+|11          |2           |Win            |
+|10          |11          |Lose           |
+|9           |10          |Lose           |
+|10          |9           |Win            |

@@ -22,7 +22,7 @@ namespace Blackjack.CLI
 			// Dealer Actions
 			
 			// Game Outcomes
-			
+			Console.WriteLine("The result is ...:{0}", game.PlayerResult());
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}

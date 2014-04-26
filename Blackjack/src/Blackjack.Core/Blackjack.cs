@@ -20,7 +20,9 @@ namespace Blackjack.Core
 		public string DealerCard(){
 			return "0";
 		}
-		
+		public string PlayerResult(){
+			return Result(GetCardValue(PlayerCard()),GetCardValue(DealerCard()));
+		}
 		public string Result( int PlayerValue, int DealerValue) {
 			if ( PlayerValue >= DealerValue )
 				return "Win";
