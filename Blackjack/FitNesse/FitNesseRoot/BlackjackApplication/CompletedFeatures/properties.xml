@@ -2,7 +2,6 @@
 <properties>
 	<Edit>true</Edit>
 	<Files>true</Files>
-	<LastModified/>
 	<Properties>true</Properties>
 	<RecentChanges>true</RecentChanges>
 	<Refactor/>
@@ -13,4 +12,3 @@
 	<saveId/>
 	<ticketId/>
 </properties>
-

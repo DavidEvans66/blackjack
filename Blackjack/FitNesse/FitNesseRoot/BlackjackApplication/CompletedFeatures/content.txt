@@ -4,7 +4,10 @@ This suite re-tests all stories that have been completed. They should always pas
 
 Stories are moved to this subwiki from the CurrentStories, once they are passing.
 
-!see StoryTests.TestApplicationInfo
-!see StoryTests.TestSystemClock
+!see GenericTests.TestApplicationInfo
+!see GenericTests.TestSystemClock
+!see FeatureSets.CardValues
+!see FeatureSets.GameOutcome
+
 
 

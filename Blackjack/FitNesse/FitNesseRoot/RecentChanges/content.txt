@@ -1,3 +1,4 @@
+|BlackjackApplication.CompletedFeatures||15:29:44 Mon, Aug 04, 2014|
 |BlackjackApplication.FeatureSets.GameOutcome||18:05:10 Sat, Apr 26, 2014|
 |BlackjackApplication.IterationPlan.IterationOne.PlayerWinsOrLoses||17:51:52 Sat, Apr 26, 2014|
 |BlackjackApplication.FeatureSets.CardValues||17:27:16 Sat, Apr 26, 2014|
