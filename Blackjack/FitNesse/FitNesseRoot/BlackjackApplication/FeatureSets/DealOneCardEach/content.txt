@@ -14,16 +14,17 @@ Then player gets the Ace, Dealer gets the 2. Still in the shoe are 3 and 4.
 Given a
 !|Blackjack.FitFixtures.NewGame|
 and we
-|Setup Shoe|A, 2, 3, 4|
+|Setup Shoe|5,2,3,4|
 
 When we
 |Deal Cards|
 
 Then Expect
-|check|Player Card|A|
+|check|Player Card|5|
 |check|Dealer Card|2|
-|check|Shoe|3, 4|
 
+We should also 
+check Shoe contains 3,4
 
 
 

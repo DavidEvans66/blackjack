@@ -5,20 +5,23 @@ namespace Blackjack.Core
 	public class BlackjackApplication
 	{
 		string[] shoe = new string[] {};
+		string _playerCard, _dealerCard;
   		public void SetupShoe(string[] Cards){
-			// TODO
+			shoe = Cards;
 		}
 		public string[] Shoe(){
 			return shoe;
 		}
 		public bool DealCards(){
-			return false; // TODO return true when implemented
+			_playerCard = shoe[0];
+			_dealerCard = shoe[1];
+			return true; 
 		}
 		public string PlayerCard(){
-			return "0";
+			return _playerCard;
 		}
 		public string DealerCard(){
-			return "0";
+			return _dealerCard;
 		}
 		public string PlayerResult(){
 			return Result(GetCardValue(PlayerCard()),GetCardValue(DealerCard()));
@@ -29,21 +32,8 @@ namespace Blackjack.Core
 			return "Lose";
 		}
 		public int GetCardValue(string Card) {
-			int _value = 0;
-			if (Card == "A")
-			{	_value = 11; }
-			else {
-				if ( Card == "K" || Card == "Q" || Card == "J" )
-				{	_value = 10; }
-				else {
-					try { _value = int.Parse(Card); }
-					catch { Exception e; }
-				}
-			}
-			if ( _value >= 2 && _value <=11 )
-			{	return _value; }
-			else
-			{	return 0; }
+			Card aCard = new Card(Card);
+			return aCard.Value();
 		}
 	}
 }

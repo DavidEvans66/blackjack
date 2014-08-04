@@ -5,10 +5,10 @@ using Blackjack.Core;
 namespace Blackjack.FitFixtures
 {
 	public class CardValuesFixture: ColumnFixture{
-        public string Card;
+        public string Rank;
         public int Value() {
-        	BlackjackApplication game = new BlackjackApplication();
-        	return game.GetCardValue(Card);
+        	Card aCard = new Card(Rank);
+        	return aCard.Value();
         }
     }
 }

@@ -3,7 +3,7 @@ Picture cards (J,Q,K) are worth 10. Ace (A) is worth 11. Other cards are worth t
 
 !4 For Example:
 !| Card Values|
-|Card |Value? |
+|Rank |Value? |
 |2    |2      |
 |7    |7      |
 |10   |10     |
@@ -15,7 +15,7 @@ Picture cards (J,Q,K) are worth 10. Ace (A) is worth 11. Other cards are worth t
 Other values are illegal, and have no value.
 !4 For Example:
 !| Card Values|
-|Card  |Value?|
+|Rank  |Value?|
 |1     |0     |
 |Deuce |0     |
 |12    |0     |

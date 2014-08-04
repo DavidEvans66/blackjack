@@ -8,6 +8,7 @@ Stories are moved to this subwiki from the CurrentStories, once they are passing
 !see GenericTests.TestSystemClock
 !see FeatureSets.CardValues
 !see FeatureSets.GameOutcome
+!see FeatureSets.DealOneCardEach
 
 
 

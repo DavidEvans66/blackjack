@@ -11,6 +11,7 @@ namespace Blackjack.FitFixtures
 		public NewGameFixture() {
 			game = new BlackjackApplication();
 			SetSystemUnderTest(game);
+			
 		}
 	}
 }
