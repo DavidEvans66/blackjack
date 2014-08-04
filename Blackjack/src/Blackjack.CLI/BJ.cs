@@ -15,8 +15,8 @@ namespace Blackjack.CLI
 			// Deal
 			game.DealCards();
 			// Show hands
-			Console.WriteLine("Your Hand is: {0}", game.PlayerCard());
-			Console.WriteLine("Dealer Hand is: {0}", game.DealerCard());
+			Console.WriteLine("Your Hand is: {0}", game.PlayerCard().ToString());
+			Console.WriteLine("Dealer Hand is: {0}", game.DealerCard().ToString());
 			// Player Actions
 			
 			// Dealer Actions

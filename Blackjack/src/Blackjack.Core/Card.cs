@@ -41,6 +41,12 @@ namespace Blackjack.Core
 			{	return 0; }
 		
 		}
+		public override string ToString(){
+			return Rank();
+		}
+		public static Card Parse(string rank){
+			return new Card(rank);
+		}
 			
 	}
 }

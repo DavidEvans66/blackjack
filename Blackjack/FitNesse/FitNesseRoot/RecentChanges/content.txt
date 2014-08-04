@@ -1,3 +1,4 @@
+|BlackjackApplication.FeatureSets.DealOneCardEach||24:41:24 Tue, Aug 05, 2014|
 |BlackjackApplication.FeatureSets.CardValues||17:30:48 Mon, Aug 04, 2014|
 |BlackjackApplication.CompletedFeatures||16:47:34 Mon, Aug 04, 2014|
 |BlackjackApplication.IterationPlan.IterationOne.DealOneCardEach||16:46:40 Mon, Aug 04, 2014|

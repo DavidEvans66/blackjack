@@ -4,12 +4,15 @@ namespace Blackjack.Core
 {
 	public class BlackjackApplication
 	{
-		string[] shoe = new string[] {};
-		string _playerCard, _dealerCard;
-  		public void SetupShoe(string[] Cards){
-			shoe = Cards;
+		Card[] shoe = new Card[52];
+		Card _playerCard, _dealerCard;
+  		public void SetupShoe(string[] CardRanks){
+			for (int i = 0; i< CardRanks.Length; i++)
+			{
+				shoe[i] = new Card(CardRanks[i]);
+			}
 		}
-		public string[] Shoe(){
+		public Card[] Shoe(){
 			return shoe;
 		}
 		public bool DealCards(){
@@ -17,14 +20,14 @@ namespace Blackjack.Core
 			_dealerCard = shoe[1];
 			return true; 
 		}
-		public string PlayerCard(){
+		public Card PlayerCard(){
 			return _playerCard;
 		}
-		public string DealerCard(){
+		public Card DealerCard(){
 			return _dealerCard;
 		}
 		public string PlayerResult(){
-			return Result(GetCardValue(PlayerCard()),GetCardValue(DealerCard()));
+			return Result(_playerCard.Value(), _dealerCard.Value());
 		}
 		public string Result( int PlayerValue, int DealerValue) {
 			if ( PlayerValue >= DealerValue )
